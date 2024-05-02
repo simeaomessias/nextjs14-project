@@ -7,7 +7,6 @@ const NavBar = () => {
             <div>
                 <Links/>
             </div>
-
         </div>
     )
 }
