@@ -1,8 +1,6 @@
-cont C = () => {
+const C = () => {
     return (
-        <div>
-
-        </div>
+        <div>C</div>
     )
 }
 
