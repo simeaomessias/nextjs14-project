@@ -1,5 +1,5 @@
 const ContactPage = () => {
-    throw new Error('Erro em contatos!');
+    // throw new Error('Erro em contatos!');
     return <div>ContactPage</div>;
   };
   
