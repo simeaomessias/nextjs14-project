@@ -24,10 +24,10 @@ const Links = () => {
     ];
 
     // TEMPORARY
-    let session = false
+    let session = true
     let isAdmin = true
 
-        return (
+    return (
         <div className={styles.links}>
             {
                 links.map(link=>(<NavLink item={link} key={link.title}/>))
@@ -37,7 +37,7 @@ const Links = () => {
                 (
                     <>
                         {isAdmin && <NavLink item={{title: "Admin", path: "/admin"}}/>}
-                        <button>Logout</button>                    
+                        <button className={styles.logout}>Logout</button>                    
                     </>
                 ) :
                 (
